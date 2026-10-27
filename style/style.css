@@ -10,14 +10,15 @@ body {
 }
 
 .cabecalho {
-    
+
     padding: 20px 0;
 }
 
 .container {
     position: relative;
     width: min(1050px, 1000px);
-    margin: 0 auto;
+    margin: 10px auto;
+    align-items: center;
 }
 
 .imagem-principal {
@@ -34,14 +35,14 @@ body {
     width: 150px;
     width: 10%;
     height: auto;
-   
+
 }
 
 .menu-principal {
     position: absolute;
     top: 20px;
     right: 20px;
-   
+
 }
 
 .menu {
@@ -50,7 +51,7 @@ body {
     margin: 0;
     display: flex;
     gap: 30px;
-   
+
 
 }
 
@@ -59,19 +60,89 @@ body {
     color: #fff;
     font-size: 14px;
     letter-spacing: 0.1em;
-    
+
 }
 
 
-h1{
+h1 {
     padding: 20px 0;
     text-align: center;
     font-size: 30px;
     font-style: italic;
 }
 
-p{
+p {
     text-align: center;
     padding: 0 20px;
     font-size: 17px;
+    padding-bottom: 20px;   
+}
+
+.imagem-fotos {
+    width: 300px;
+    height: 250px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+.descricao {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+
+.segunda-secao {
+    background-image: url('../images/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    min-height: 420px;
+   border-radius: 90px;
+   margin-top: 20px;
+
+    align-items: center;
+    padding: 30px 10;
+    color: #fff;
+}
+
+.segunda-secao .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 420px;
+    text-align: left;
+}
+
+.segunda-secao p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    color: #fff;
+    text-align: left;
+}
+
+
+
+.numero {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.segundo-titulo1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 1px;
+    color: darkblue;
 }
